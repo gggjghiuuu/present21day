@@ -1,0 +1,143 @@
+.page{
+  background: #4353FF;
+}
+.title{
+  color: white;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 51px;
+  margin-left: 805px;
+  text-transform: uppercase;
+}
+.cards{
+  background: #4151F9;
+  width: 1400px;
+  height:650px;
+  border: 1px solid #E8C59C;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.card__low-height{
+  background: #FFFFFF;
+  width: 350px;
+  height: 327px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.card__title{
+width: 109px;
+height: 58px;
+color: #9a99e7;
+font-size: 42px;
+line-height: 57.2px;
+font-weight: 700;
+margin-left: -30px;
+}
+.card__text{
+font-size: 15px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: center;
+width: 298px;
+height: 41px;
+margin: auto;
+margin-top: 60px;
+}
+.card__price{
+  color: #4756FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px ;
+}
+.price__number{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.58px;
+text-align: center;
+}
+.price__text{
+  line-height: 30px;
+}
+.card__high-height{
+width: 350px;
+height: 495px;
+background: #FFFFFF !important;
+border-radius: 20px;
+margin-top: -40px;
+}
+.card__title-high{
+  width: 109px;
+  height: 58px;
+  color: #4655FD;
+  font-size: 42px;
+  line-height: 57.2px;
+  font-weight: 700;
+  margin-left: -30px;
+}
+.card__price-high{
+    color: #4756FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:140px ;
+}
+.card__apply{
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  background: #4151F9;
+  border-radius: 40px;
+  border: 1px solid #E8C59C;
+  margin-left: 150px;
+}
+.card__text-high{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: center;
+  width: 298px;
+  height: 41px;
+  margin: auto;
+  margin-top: 90px;
+  }
+.card1{
+  margin-right: -20px;
+}
+.card3{
+  margin-left: -20px;
+}
+.card__info{
+  display: flex;
+  margin-top: -170px;
+  justify-content: center;
+}
+.info__line{
+  margin-right: 30px;
+  
+}
+.info__text{
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+
+}
+.button__next{
+color: #4353FF;
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+border-radius: 25px;
+width: 140px;
+height: 60px;
+background: #E8C59C;
+border: none;
+margin-left: 860px;
+margin-top: 20px;
+}
