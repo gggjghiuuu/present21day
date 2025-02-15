@@ -1,18 +1,29 @@
 .page{
   background: #4353FF;
+  display: flex;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  flex-direction: column;
+  align-items: center;
 }
 .title{
   color: white;
   font-weight: 400;
   font-size: 26px;
-  margin-top: 51px;
-  margin-left: 805px;
+  padding-top: 51px;
+  margin: auto;
   text-transform: uppercase;
+  width: 235px;
+  height: 31px;
 }
 .cards{
   background: #4151F9;
   width: 1400px;
-  height:650px;
+  height:690px;
   border: 1px solid #E8C59C;
   border-radius: 20px;
   margin: auto;
@@ -35,6 +46,9 @@ font-size: 42px;
 line-height: 57.2px;
 font-weight: 700;
 margin-left: -30px;
+}
+.card-span{
+  color:#FFFFFF;
 }
 .card__text{
 font-size: 15px;
@@ -68,6 +82,7 @@ height: 495px;
 background: #FFFFFF !important;
 border-radius: 20px;
 margin-top: -40px;
+z-index: 2;
 }
 .card__title-high{
   width: 109px;
@@ -86,13 +101,22 @@ margin-top: -40px;
     margin-top:140px ;
 }
 .card__apply{
-  width: 45px;
-  height: 45px;
+  width: 73px;
+  height: 73px;
   margin: auto;
   background: #4151F9;
   border-radius: 40px;
   border: 1px solid #E8C59C;
   margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apply__image{
+  width: 34px;
+  height: 29px;
+  border: none;
+  
 }
 .card__text-high{
   font-size: 15px;
@@ -138,6 +162,6 @@ width: 140px;
 height: 60px;
 background: #E8C59C;
 border: none;
-margin-left: 860px;
 margin-top: 20px;
+cursor: pointer;
 }
